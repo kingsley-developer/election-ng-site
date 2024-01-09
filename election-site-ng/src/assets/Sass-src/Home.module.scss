@@ -147,3 +147,18 @@
     text-align: center;
     color: gold;
 }
+
+.homeSignup_popupmain{
+    text-align: center;
+    font-weight: bold;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+.homeSignup_popupmain_dialog{
+    animation: myScale;
+    animation-duration: 1s;
+}
+@keyframes myScale{
+    50%{transform: scale(2, 2);};
+}

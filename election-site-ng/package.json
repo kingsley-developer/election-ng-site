@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@hookform/resolvers": "^3.1.0",
@@ -25,7 +26,8 @@
     "animate.css": "^4.1.1",
     "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
-    "emailjs": "^4.0.2",
+    "d3": "^7.8.5",
+    "emailjs": "^4.0.3",
     "firebase": "^10.0.0",
     "formik": "^2.2.9",
     "moment": "^2.29.4",

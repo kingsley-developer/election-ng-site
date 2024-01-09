@@ -10,8 +10,8 @@ import Tour from "./Components/Tour";
 const router = createBrowserRouter(createRoutesFromElements(
     <Route>
     <Route path="/" element={<Home/>}/>
-    <Route path="user" element={<User/>}/>
-    <Route path="tour" element={<Tour/>}/>
+    <Route path="/dashboard" element={<User/>}/>
+    <Route path="/tour" element={<Tour/>}/>
     <Route path="*" element={<NotFound/>}/>
     </Route>   
 ))

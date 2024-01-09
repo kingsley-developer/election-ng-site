@@ -1,0 +1,26 @@
+.signUP_Title{
+    text-align: center;
+    font-weight: bold;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.signUP_main{
+    background-image: url("../../assets/background/dark-black-background-design-with-stripes_1017-38064.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    outline-color: green;
+    outline-style: outset;
+    outline-width: 10px;
+}
+.signUP_Form > form{
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 20px;
+}
+.signUP_Form_b > button{
+    width: 180px;
+    margin-top: 16px;
+}
